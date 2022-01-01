@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" initial-scale="1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrapmodule.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <title>Easy Web Design - Niagara Responsive Websites for Less!</title>
+    <meta name="description" content="Easy Web Design services Niagara and creates beautiful, responsive and SEO friendly websites for an excellent price. We specialize in eCommerce, Freelance or Passion work and small to medium business. Let's get started today.">
+</head>
+<body>
+
+    <header class="header">
+        
+            <img class="logo" src="img/logo2.png" alt="EWD logo">
+        
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#">about</a></li>
+                <li><a class="nav-link" href="#">portfolio</a></li>
+                <li><a class="nav-link" data-toggle="modal" data-target="#contactform" href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="mt-2 alert-success" id="formsubmit"></div>
+
+    <main>
+        <section class="presentation">
+            <div class="introduction">
+                <div class="intro-text">
+                    <h1>Need a Responsive Website?</h1>
+                        <p>
+                            We turn ideas into reality.
+                        </p>
+                        </div>  
+                    <div class="cta">
+                        <a href="#section-plans"><button class="cta-select">More Info  <i class="fas fa-sort-down blink"></i></button></a>
+                        <button class="cta-add" data-toggle="modal" data-target="#contactform">Contact Us</button>
+                    </div>
+                </div>
+                <div class="cover">
+                    <img src="img/computer.png" alt="computerimage">
+                </div>
+        </section>
+
+        <img class="small-circle" src="img/small-eclipse.svg" alt="eclipse">
+        <img class="medium-circle" src="img/mid-eclipse.svg" alt="mideclipse">
+        <img class="big-circle" src="img/big-eclipse.svg" alt="bigeclipse">
+
+
+<!--
+        <section class="pricingscreen">
+            <div class="pricing">
+                <div class="onepager">
+                    <h2 class="amount">$200</h2>
+                </div>
+                <div class="threepager">
+                    <h2 class="amount">$500</h2>
+                </div>
+                <div class="full">
+                    <h2 class="amount">$1000</h2>
+                </div>
+        </section>
+
+        <img class="small-circle2" src="img/small-eclipse.svg" alt="eclipse">
+        <img class="medium-circle2" src="img/mid-eclipse.svg" alt="mideclipse">
+        <img class="big-circle2" src="img/big-eclipse.svg" alt="bigeclipse">
+    -->
+
+
+    <!-- Flipping cards -->
+
+    <section class="section-plans" id="section-plans">
+        <div class="u-center-text u-margin-bottom-big">
+        </div>
+        <div class="row flexbox">
+          <div class="col-1-of-3 flexboxcard">
+            <div class="card">
+              <div class="card__side card__side--front-1">
+                <div class="card__title card__title--1">
+                  <i class="fas fa-paper-plane"></i>
+                  <h4 class="card__heading">Basic</h4>
+                </div>
+  
+                <div class="card__details">
+                  <ul>
+                    <li>1 Page</li>
+                    <li>Custom Logo and Graphics</li>
+                    <li>Set up with Hosting of your choice</li>
+                    <li>FREE SSL Certificate</li>
+                    <li>1 Included Domain if available</li>
+                    <li>Perfect for a Freelance Webpage</li>
+                  </ul>
+                  
+                </div>
+                <a href="" data-toggle="modal" data-target="#contactform" class="btn btn--white mobile">Select</a>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$199*</p>
+                  </div>
+                  <a data-toggle="modal" data-target="#contactform" class="btn btn--white">Select</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-1-of-3 flexboxcard">
+            <div class="card">
+              <div class="card__side card__side--front-2">
+                <div class="card__title card__title--2">
+                  <i class="fas fa-plane"></i>
+                  <h4 class="card__heading">Plus</h4>
+                </div>
+  
+                <div class="card__details">
+                  <ul>
+                    <li>3 Pages</li>
+                    <li>Landing Page, Services and Contact Us</li>
+                    <li>Set up with Hosting of your choice</li>
+                    <li>FREE SSL Certificate</li>
+                    <li>1 Included Domain and a SubDomain if needed</li>
+                    <li>Monthly Management if needed*</li>
+                  </ul>
+                </div>
+                <a data-toggle="modal" data-target="#contactform" class="btn btn--white mobile">Select</a>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$499*</p>
+                  </div>
+                  <a href="" data-toggle="modal" data-target="#contactform" class="btn btn--white">Select</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-1-of-3 flexboxcard">
+            <div class="card">
+              <div class="card__side card__side--front-3">
+                <div class="card__title card__title--3">
+                  <i class="fas fa-rocket"></i>
+                  <h4 class="card__heading">Pro</h4>
+                </div>
+  
+                <div class="card__details">
+                  <ul>
+                    <li>Unlimited Pages</li>
+                    <li>eCommerce or scalable business</li>
+                    <li>Upgraded Hosting</li>
+                    <li>FREE SSL Certificate</li>
+                    <li>2 Domains included with unlimited SubDomains</li>
+                    <li>Monthly Management if needed*</li>
+                  </ul>
+                </div>
+                <a data-toggle="modal" data-target="#contactform" class="btn btn--white mobile">Select</a>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__price-box">
+                    <p class="card__price-only">Only</p>
+                    <p class="card__price-value">$999</p>
+                  </div>
+                  <a href="" data-toggle="modal" data-target="#contactform" class="btn btn--white">Select</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+
+
+
+
+    <!-- Form -->
+
+    <!-- Modal for Contact form -->
+    <div class="modal fade mt-5-desk" id="contactform" tabindex="-1" role="dialog"
+        aria-labelledby="EasyWebDesign Contact Form" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header text-center">
+                    <h4 class="modal-title w-100" id="ContactUs">Write to us</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mx-3">
+                    <!-- form -->
+                    <form id="contactme" action="php/form.php" method="POST">
+                        <div class="md-form mb-2">
+                            <i class="fas fa-user prefix grey-text mb-2"></i>
+                            <input type="text" id="name" name="name" placeholder="Name"
+                                class="form-control validate textbox2">
+                            <label data-error="wrong" data-success="right" for="name"></label>
+                        </div>
+    
+                        <div class="md-form mb-2">
+                            <i class="fas fa-envelope prefix grey-text mb-2"></i>
+                            <input type="email" id="email" name="email" placeholder="Email"
+                                class="form-control validate textbox2">
+                            <label data-error="wrong" data-success="right" for="email"></label>
+                        </div>
+    
+                        <div class="md-form mb-2">
+                            <i class="fas fa-tag prefix grey-text mb-2"></i>
+                            <input type="text" id="general" name="general" placeholder="Subject"
+                                class="form-control validate textbox2">
+                            <label data-error="wrong" data-success="right" for="general"></label>
+                        </div>
+    
+                        <div class="md-form">
+                            <i class="fas fa-pencil-alt" mb-2></i>
+                            <textarea type="text" id="howCanWeHelp" name="howCanWeHelp" placeholder="How can we help?"
+                                class="md-textarea form-control" rows="4"></textarea>
+                            <label data-error="wrong" data-success="right" for="howCanWeHelp"></label>
+                        </div>
+    
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <button class="btn btn-outline-dark" id="submit" name="submit" type="submit">Submit <i
+                            class="fas fa-paper-plane"></i></button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+      <!-- Site footer -->
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row2 cart">
+            <div class="logo-container3">
+              <h6 class="mr-3">About</h6>
+              <p class="text-justify mr-5">EasyWebDesign.ca provides the highest quality websites <i>for less.</i> Our staff is dedicated to providing excellent service along with site, domain, and hosting management - ALL in one place. It is our mission to work with local business' and freelancers to help get them started with an online presence.</p>
+            </div>
+  
+            
+  
+            <div id="QL">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="http://scanfcode.com/about/">About Us</a></li>
+                <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+                <li><a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a></li>
+                <li><a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a></li>
+                <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="cart">
+            <div id="CopyrightText" class="logo-container2 mt-2">
+              <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+           <a href="#">EasyWebDesign</a>.
+              </p>
+            </div>
+  
+            <div class="logo-container2">
+              <ul class="social-icons">
+                <li><a class="facebook" href="https://facebook.com/easywebdesigncanada"><i class="fab fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>   
+              </ul>
+
+
+            </div>
+          </div>
+        </div>
+
+        
+  </footer>
+
+  <ul id="mobilesocials" class="social-icons">
+    <li><a class="facebook" href="https://facebook.com/easywebdesigncanada"><i class="fab fa-facebook"></i></a></li>
+    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a></li>
+    <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>   
+  </ul>
+
+<script src="js/scroll.js"></script>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/formsubmit.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
